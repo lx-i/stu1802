@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>学生管理系统-登录</title>
+    <script type="text/javascript" src="../static/js/jquery-3.3.1.min.js"></script>
+    <script>
+        $(function () {
+            $('#denglu').click(function () {
+                //用ajax提交
+                $.ajax({
+                    type:"POST",
+                    url:""
+                })
+            })
+        })
+    </script>
+    <style>
+        body{
+            background-color: cadetblue;
+        }
+        .login{
+            width: 300px;
+            height: 300px;
+            margin-left: 35%;
+            margin-top: 100px;
+            border: 1px solid white;
+            background-color: rosybrown;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+<div class="login">
+    <div>学生管理系统-登录</div>
+    <div>账号：<input type="text"></div>
+    <div>密码：<input type="password"></div>
+    <div><input type="button" value="登录" id="denglu"></div>
+</div>
+</body>
+</html>
