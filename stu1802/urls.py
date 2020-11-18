@@ -18,5 +18,6 @@ from django.urls import path
 from stu import views
 
 urlpatterns = [
-   path('login/', views.open_login)
+   path('login/', views.open_login),
+path('denglu/',views.login)
 ]
